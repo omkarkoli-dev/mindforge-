@@ -1,0 +1,76 @@
+{
+  "name": "MindForge: Unburdening the Reader, Unleashing the Visionary",
+  "short_name": "MindForge",
+  "description": "Assistive learning and creative amplification web application tailored for the dyslexic brain: Unburdening the reader, unleashing the visionary.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FDFBF7",
+  "theme_color": "#FDFBF7",
+  "orientation": "any",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "accessibility",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Read & Absorb",
+      "short_name": "Reader",
+      "description": "Dyslexia Transformer, Bionic Reading, and Karaoke TTS",
+      "url": "./index.html#panelRead",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Think & Create",
+      "short_name": "Studio",
+      "description": "Whiteboard Sketching & Voice-to-Essay Masterpiece",
+      "url": "./index.html#panelCreate",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Brain Gym & Viva",
+      "short_name": "Brain Gym",
+      "description": "Oral Viva Exam, Lateral Thinking & Multisensory Letter Tracer",
+      "url": "./index.html#panelGym",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
